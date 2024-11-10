@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "jomar <jomarneri16@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,8 +24,11 @@
     "vite-plugin-eslint": "^1.3.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
     "firebase": "^11.0.1",
-    "gsap": "^3.9.1"
+    "gsap": "^3.9.1",
+    "node-fetch": "^3.3.2"
   },
   "description": "<h1>Webflow, vite, javasctipt and firebase🔥</h1> <h3>this project is ongoaing 😊😊 i will add webflow API soon!!</h3>",
   "main": "vite.config.js"
